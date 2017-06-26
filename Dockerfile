@@ -1,4 +1,4 @@
-FROM jenkins:2.46.2
+FROM jenkins:latest
 
 USER root
 RUN echo "deb http://ppa.launchpad.net/ansible/ansible/ubuntu trusty main" >> /etc/apt/sources.list &&\
